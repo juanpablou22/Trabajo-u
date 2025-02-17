@@ -18,7 +18,9 @@ public class Principal {
                     + "2. Resta\n"
                     + "3. Multiplicación\n"
                     + "4. División\n"
-                    + "5. Salir";
+                    + "5. Salir\n";
+                   
+                    
             opcion = Integer.parseInt(JOptionPane.showInputDialog(menu));
 
             if (opcion == 1) {
